@@ -1,5 +1,4 @@
-# switch_challenge
-## Solution to AON's Switch Challenge
+# Solution to AON's Switch Challenge
 
 ### Introduction
 This program is designed to solve the Switch Challenge. It's a straightforward tool that allows you to input color combinations and receive the correct number sequence as a solution. This README provides essential information on how to effectively use the program.
