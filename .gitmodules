@@ -1,0 +1,3 @@
+[submodule "pylibs"]
+	path = pylibs
+	url = https://github.com/ahallemberg/pylibs.git
