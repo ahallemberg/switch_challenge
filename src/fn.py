@@ -1,6 +1,6 @@
 def switch_challenge_level1(comb1: str, comb2: str) -> int: 
     if len(comb1) != 4 or len(comb2) != 4: 
-        raise ValueError("Ugyldig params")
+        raise ValueError("Invalid params")
     
     int_as_list = ["","","",""]
     for index, color in enumerate(comb1):
@@ -16,7 +16,7 @@ def switch_challenge_level1(comb1: str, comb2: str) -> int:
 
 def switch_challenge_level2(comb1: str, comb2: str, *levels: list[int], ref: None|list[int] = None) -> bool|list[int]:
     if len(comb1) != 4 or len(comb2) != 4: # checks for error
-        raise ValueError("Ugyldig params")
+        raise ValueError("Invalid params")
     for number in levels[0]:
         new_comb = transform(comb1, number)
         if len(levels) == 1: 
@@ -39,7 +39,7 @@ def switch_challenge_level2(comb1: str, comb2: str, *levels: list[int], ref: Non
 def transform(comb1: str, number: int) -> str: 
     # checks for error 
     if len(comb1) != 4: 
-        raise ValueError("Ugyldig params")
+        raise ValueError("Invalid params")
     
     number_as_list = list(str(number))
     new_comb_as_list = ["", "", "", ""]
